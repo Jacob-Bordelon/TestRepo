@@ -7,6 +7,4 @@ This repo is to learn
 - Project Control 
 
 ### Contributers 
-Jacob-Bordelon
-
-&copy; Jacob-Bordelon
+&copy;Jacob-Bordelon
