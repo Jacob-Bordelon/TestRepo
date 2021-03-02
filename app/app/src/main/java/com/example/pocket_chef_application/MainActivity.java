@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton button1 = findViewById(R.id.imageButton1);
+        ImageButton button1 = findViewById(R.id.);
         ImageButton button2 = findViewById(R.id.imageButton2);
         ImageButton button3 = findViewById(R.id.imageButton3);
 
@@ -79,14 +79,14 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                switch_fragment(new FirstFragment());
+                switch_fragment(new FirstFragment())
                 button2.setVisibility(View.GONE);
                 button1.setVisibility(View.VISIBLE);
                 button3.setVisibility(View.VISIBLE);
             }
         });
 
-        button3.setOnClickListener(new View.OnClickListener() {
+        button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 switch_fragment(new ThirdFragment());
